@@ -24,8 +24,8 @@ When performing neural network training through CNN, the simplest way to determi
 However, the results obtained through reinforcement learning were tasks requiring considerable system resources and long hours of effort. [25] In the study, we used a method to visualize and monitor the optimization of neural network structures, and the speed was improved by reducing the stride and kernel size of the first layer of convolution. However, the problems inherent in the CNN structure used in the study or issues in progress had the disadvantage that a researcher with specialized knowledge must directly analyze it. In addition, humans had to be directly involved in the selection and selection of a new CNN structure. Most of the existing hyperparameter optimization or neural network model selection is a method of verifying various models in order to maximize the accuracy of the validation set. [26] In the study, deconvnet was proposed, which visualizes images learned through a neural network to measure and monitor the accuracy, thereby presenting a new method to reduce the error rate of CNN. This is a method that can be automatically set through. However, there is a disadvantage in that it cannot be applied to datasets other than image data because optimization is performed through visualization of the learned image.
 
 ### Evaluation Metrics
-Evaluation of CNN performance changes according to each parameter change below
-#### dropout- ratio change (10 ~ 80%) and performence testing for each cases
+Evaluation of CNN performance changes according to each hyperparameter changes as below
+#### dropout-ratio change (10 ~ 80%) and performence testing for each cases
 #### batch size change (128 ~ 2048) and performence testing for each cases
 #### convolutional layer change (2 ~ 6) and performence testing for each cases
 #### fully connected layer change(1 ~ 5) and performence testing for each cases
