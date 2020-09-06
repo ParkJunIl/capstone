@@ -1,7 +1,7 @@
 # Machine Learning Engineer Nanodegree
 ## Capstone Proposal
 Junil Park  
-September 6st, 2020
+September 6th, 2020
 
 ## Proposal
 Various hyperparameters such as the size of the kernel constituting the convolutional neural network (CNN), the number of channels, the stride, the number of convolution and max pooling layers, the number of fully connected layers, the number of epochs, the batch size, and the dropout ratio, etc. It has a decisive influence on not only determining but also extracting features. In this paper, in addition to research on performance optimization based on kernel size, number of channels and stride structure, which have been proven in existing CNN-related papers, changes in CNN structure, max pooling size, dropout ratio, and fully connected network structure in the abstraction stage of CNN. The purpose of this study was to examine how it affects the final performance of this convolutional neural network. After basic configuration of the CNN, kernel, channel, and stride hyperparameter to have a certain performance through the implementation of a simple structure, CNN structure, max pooling size, dropout ratio, and fully connected layer to be observed are set as observation variables to learn and learn. The trend and correlation of test performance changes were observed. The CNN model used in this paper was trained and tested using the CIFAR-10 Dataset.
